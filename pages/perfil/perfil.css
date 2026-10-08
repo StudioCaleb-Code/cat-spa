@@ -1,0 +1,44 @@
+.perfil-main {
+  display: flex;
+  padding-top: 15px !important;
+}
+
+/* SECCION GENRAL */
+.seccion-inicio {
+  width: 100%;
+}
+
+/* SECCION NUMERO 1 */
+.container-tecno {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-tecno {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-tecno img{
+  width: 100px;
+}
+
+/* DISEÑO PARA LA FOTO MAS LAS REDES */
+.info-estudiante {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.perfil-estudiante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.perfil-estudiante img {
+  width: 250px;
+}
